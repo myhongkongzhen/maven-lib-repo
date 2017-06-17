@@ -1,0 +1,6 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sat Jun 17 16:59:23 CST 2017
+http\://127.0.0.1\:8888/nexus/content/groups/public/.lastUpdated=1497688582400
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1497689963669
+http\://127.0.0.1\:8888/nexus/content/groups/public/.error=
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework\:spring-webmvc\:jar\:4.3.9.RELEASE from/to central (http\://repo.maven.apache.org/maven2)\: GET request of\: org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar from central failed

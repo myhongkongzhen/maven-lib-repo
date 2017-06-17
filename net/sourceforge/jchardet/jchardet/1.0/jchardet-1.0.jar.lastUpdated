@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sat Jun 17 11:50:41 CST 2017
+http\://repo.maven.apache.org/maven2/.lastUpdated=1497671441662
+http\://127.0.0.1\:8888/nexus/content/groups/public/.error=Could not transfer artifact net.sourceforge.jchardet\:jchardet\:jar\:1.0 from/to nexus (http\://127.0.0.1\:8888/nexus/content/groups/public)\: Connection to http\://127.0.0.1\:8888 refused
+default-http\://127.0.0.1\:8888/nexus/content/groups/public/.lastUpdated=1497670534714
