@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:09:52 CST 2017
+maven-common-artifact-filters-3.0.0.jar>oss-nexus=
+maven-common-artifact-filters-3.0.0.jar>central=
+maven-common-artifact-filters-3.0.0.pom>central=
+maven-common-artifact-filters-3.0.0.pom>oss-nexus=
+maven-common-artifact-filters-3.0.0.jar>alimaven=
+maven-common-artifact-filters-3.0.0.pom>alimaven=

@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:09:32 CST 2017
+maven-clean-plugin-2.5.jar>central=
+maven-clean-plugin-2.5.jar>oss-nexus=
+maven-clean-plugin-2.5.jar>alimaven=
+maven-clean-plugin-2.5.pom>central=
+maven-clean-plugin-2.5.pom>oss-nexus=
+maven-clean-plugin-2.5.pom>alimaven=

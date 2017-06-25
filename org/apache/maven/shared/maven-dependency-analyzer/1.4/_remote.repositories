@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 16:08:02 CST 2017
+maven-dependency-analyzer-1.4.jar>central=
+maven-dependency-analyzer-1.4.jar>oss-nexus=
+maven-dependency-analyzer-1.4.pom>central=
+maven-dependency-analyzer-1.4.pom>oss-nexus=

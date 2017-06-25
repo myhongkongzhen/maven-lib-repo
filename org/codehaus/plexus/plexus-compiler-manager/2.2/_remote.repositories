@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:11:50 CST 2017
+plexus-compiler-manager-2.2.pom>alimaven=
+plexus-compiler-manager-2.2.jar>oss-nexus=
+plexus-compiler-manager-2.2.pom>oss-nexus=
+plexus-compiler-manager-2.2.jar>alimaven=

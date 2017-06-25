@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:09:52 CST 2017
+asm-analysis-3.2.jar>alimaven=
+asm-analysis-3.2.pom>alimaven=
+asm-analysis-3.2.jar>oss-nexus=
+asm-analysis-3.2.jar>central=
+asm-analysis-3.2.pom>central=
+asm-analysis-3.2.pom>oss-nexus=

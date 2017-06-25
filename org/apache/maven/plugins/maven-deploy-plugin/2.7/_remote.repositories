@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:09:33 CST 2017
+maven-deploy-plugin-2.7.jar>oss-nexus=
+maven-deploy-plugin-2.7.jar>alimaven=
+maven-deploy-plugin-2.7.pom>alimaven=
+maven-deploy-plugin-2.7.jar>central=
+maven-deploy-plugin-2.7.pom>oss-nexus=
+maven-deploy-plugin-2.7.pom>central=

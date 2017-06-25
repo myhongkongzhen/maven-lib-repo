@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:09:52 CST 2017
+maven-script-interpreter-1.0.jar>oss-nexus=
+maven-script-interpreter-1.0.jar>central=
+maven-script-interpreter-1.0.pom>central=
+maven-script-interpreter-1.0.pom>oss-nexus=
+maven-script-interpreter-1.0.jar>alimaven=
+maven-script-interpreter-1.0.pom>alimaven=

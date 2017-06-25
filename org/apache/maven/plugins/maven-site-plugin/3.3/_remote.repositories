@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:09:34 CST 2017
+maven-site-plugin-3.3.pom>central=
+maven-site-plugin-3.3.jar>alimaven=
+maven-site-plugin-3.3.pom>alimaven=
+maven-site-plugin-3.3.jar>oss-nexus=
+maven-site-plugin-3.3.pom>oss-nexus=
+maven-site-plugin-3.3.jar>central=

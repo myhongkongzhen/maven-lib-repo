@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:09:52 CST 2017
+archetype-common-3.0.1.jar>alimaven=
+archetype-common-3.0.1.jar>central=
+archetype-common-3.0.1.pom>alimaven=
+archetype-common-3.0.1.pom>central=
+archetype-common-3.0.1.jar>oss-nexus=
+archetype-common-3.0.1.pom>oss-nexus=

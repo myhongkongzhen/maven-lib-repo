@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:11:39 CST 2017
+plexus-build-api-0.0.4.jar>alimaven=
+plexus-build-api-0.0.4.pom>alimaven=
+plexus-build-api-0.0.4.pom>oss-nexus=
+plexus-build-api-0.0.4.jar>oss-nexus=

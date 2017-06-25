@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 23:20:10 CST 2017
+maven-invoker-2.0.11.jar>oss-nexus=
+maven-invoker-2.0.11.pom>alimaven=
+maven-invoker-2.0.11.pom>oss-nexus=
+maven-invoker-2.0.11.jar>central=
+maven-invoker-2.0.11.pom>central=
+maven-invoker-2.0.11.jar>alimaven=

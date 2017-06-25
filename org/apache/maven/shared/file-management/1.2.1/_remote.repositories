@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 16:08:02 CST 2017
+file-management-1.2.1.jar>oss-nexus=
+file-management-1.2.1.jar>central=
+file-management-1.2.1.pom>central=
+file-management-1.2.1.pom>oss-nexus=

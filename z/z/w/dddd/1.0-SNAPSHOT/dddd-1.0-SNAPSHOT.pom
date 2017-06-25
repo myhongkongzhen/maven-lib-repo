@@ -1,0 +1,428 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>z.z.w</groupId>
+  <artifactId>dddd</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>dddddd</module>
+    <module>web</module>
+  </modules>
+  <packaging>pom</packaging>
+
+  <name>dddd</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <spring.version>4.3.9.RELEASE</spring.version>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.main.runner>z.z.w.App</project.main.runner>
+      <project.jvm.arguments>
+
+          -server
+          -Xss256K
+          -Xmx3000M
+          -Xms3000M
+          -Xmn1500M
+          -XX:+UseParNewGC
+          -XX:PermSize=500M
+          -XX:+PrintHeapAtGC
+          -XX:SurvivorRatio=1
+          -XX:+PrintGCDetails
+          -XX:MaxPermSize=500M
+          -XX:+DisableExplicitGC
+          -XX:+PrintGCTimeStamps
+          -XX:+UseConcMarkSweepGC
+          -XX:+PrintClassHistogram
+          -XX:+UseFastAccessorMethods
+          -XX:SoftRefLRUPolicyMSPerMB=0
+          -XX:+CMSClassUnloadingEnabled
+          -XX:+CMSParallelRemarkEnabled
+          -XX:LargePageSizeInBytes=128M
+          -XX:CMSFullGCsBeforeCompaction=0
+          -XX:+UseCMSInitiatingOccupancyOnly
+          -XX:+UseCMSCompactAtFullCollection
+          -XX:PretenureSizeThreshold=10000000
+          -XX:CMSInitiatingOccupancyFraction=70
+          -Xloggc:"$BASEDIR"/logs/gc.log
+
+          <!-- -XX:MaxTenuringThreshold=8 去掉該配置 -->
+
+          <!-- -server -->
+          <!-- -Xms4g -Xmx4g -Xmn3g -Xss256k -->
+          <!-- -XX:PermSize=64M -->
+          <!-- -XX:MaxPermSize=64M -->
+          <!-- -XX:+UseConcMarkSweepGC -->
+          <!-- -XX:+UseAdaptiveSizePolicy -->
+          <!-- -XX:+CMSClassUnloadingEnabled -->
+          <!-- -XX:+UseCMSCompactAtFullCollection -->
+          <!-- -XX:+DisableExplicitGC -->
+          <!-- -XX:CMSFullGCsBeforeCompaction=10 -->
+          <!-- -XX:CMSMaxAbortablePrecleanTime=5 -->
+          <!-- -XX:+HeapDumpOnOutOfMemoryError -->
+
+          <!-- -Xms4096M -Xmx4096M -->
+          <!-- -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+DisableExplicitGC -->
+          <!-- -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:ParallelGCThreads=8 -->
+          <!-- -XX:NewSize=128m -XX:MaxNewSize=256m -Xss128k -->
+          <!-- -XX:PermSize=64m -XX:MaxPermSize=128m -->
+          <!-- -XX:SurvivorRatio=14 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=16 -->
+
+      </project.jvm.arguments>
+  </properties>
+
+  <dependencies>
+
+
+
+
+      <!-- servlet -->
+      <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>javax.servlet-api</artifactId>
+          <version>3.1.0</version>
+          <scope>provided</scope>
+      </dependency>
+
+      <!-- FILE UPLOAD -->
+      <dependency>
+          <groupId>commons-fileupload</groupId>
+          <artifactId>commons-fileupload</artifactId>
+          <version>1.3.2</version>
+      </dependency>
+
+      <!-- spring jms -->
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-jms</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
+
+      <!-- SRPINT -->
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-core</artifactId>
+          <version>${spring.version}</version>
+          <exclusions>
+              <exclusion>
+                  <groupId>commons-logging</groupId>
+                  <artifactId>commons-logging</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-beans</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-context-support</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-web</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
+      <!-- spring mvc -->
+      <dependency>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-databind</artifactId>
+          <version>2.6.3</version>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-webmvc</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
+
+      <!-- Spring AOP -->
+      <dependency>
+          <groupId>org.aspectj</groupId>
+          <artifactId>aspectjweaver</artifactId>
+          <version>1.8.2</version>
+      </dependency>
+
+      <!--<exclusion>-->
+      <!--<groupId>org.springframework</groupId>-->
+      <!--<artifactId>spring</artifactId>-->
+      <!--</exclusion>-->
+
+      <!--<dependency>-->
+      <!--<groupId>org.springframework</groupId>-->
+      <!--<artifactId>spring-aspects</artifactId>-->
+      <!--<version>${spring.version}</version>-->
+      <!--</dependency>-->
+
+      <!-- <dependency> -->
+      <!-- <groupId>org.springframework</groupId> -->
+      <!-- <artifactId>spring-aop</artifactId> -->
+      <!-- <version>${spring.version}</version> -->
+      <!-- </dependency> -->
+      <!-- <dependency> -->
+      <!-- <groupId>org.springframework</groupId> -->
+      <!-- <artifactId>spring-jdbc</artifactId> -->
+      <!-- <version>${spring.version}</version> -->
+      <!-- </dependency> -->
+      <!-- <dependency> -->
+      <!-- <groupId>org.springframework</groupId> -->
+      <!-- <artifactId>spring-tx</artifactId> -->
+      <!-- <version>${spring.version}</version> -->
+      <!-- </dependency> -->
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-orm</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-test</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
+
+
+
+      <!-- Zookeeper 用于分布式服务管理 -->
+      <dependency>
+          <groupId>org.apache.zookeeper</groupId>
+          <artifactId>zookeeper</artifactId>
+          <version>3.4.10</version>
+          <exclusions>
+              <exclusion>
+                  <groupId>log4j</groupId>
+                  <artifactId>log4j</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.slf4j</groupId>
+                  <artifactId>slf4j-log4j12</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.slf4j</groupId>
+                  <artifactId>slf4j-api</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+      <dependency>
+          <groupId>com.101tec</groupId>
+          <artifactId>zkclient</artifactId>
+          <version>0.10</version>
+          <exclusions>
+              <exclusion>
+                  <groupId>log4j</groupId>
+                  <artifactId>log4j</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.slf4j</groupId>
+                  <artifactId>slf4j-log4j12</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.slf4j</groupId>
+                  <artifactId>slf4j-api</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+      <dependency>
+          <groupId>io.netty</groupId>
+          <artifactId>netty-all</artifactId>
+          <version>4.1.12.Final</version>
+      </dependency>
+      <!-- Zookeeper 用于分布式服务管理 end -->
+
+      <!-- dubbo -->
+      <dependency>
+          <groupId>com.alibaba</groupId>
+          <artifactId>dubbo</artifactId>
+          <version>2.5.3</version>
+          <exclusions>
+              <exclusion>
+                  <groupId>commons-logging</groupId>
+                  <artifactId>commons-logging</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.springframework</groupId>
+                  <artifactId>spring</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+
+      <dependency>
+          <groupId>redis.clients</groupId>
+          <artifactId>jedis</artifactId>
+          <version>2.9.0</version>
+      </dependency>
+
+      <!-- activeMQ -->
+      <dependency>
+          <groupId>org.apache.activemq</groupId>
+          <artifactId>activemq-all</artifactId>
+          <version>5.11.1</version>
+          <exclusions>
+              <exclusion>
+                  <groupId>log4j</groupId>
+                  <artifactId>log4j</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.slf4j</groupId>
+                  <artifactId>slf4j-log4j12</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.slf4j</groupId>
+                  <artifactId>slf4j-api</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.activemq</groupId>
+          <artifactId>activemq-pool</artifactId>
+          <version>5.11.1</version>
+          <exclusions>
+              <exclusion>
+                  <groupId>log4j</groupId>
+                  <artifactId>log4j</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.slf4j</groupId>
+                  <artifactId>slf4j-log4j12</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.slf4j</groupId>
+                  <artifactId>slf4j-api</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+
+
+    <!-- mybatis -->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.4.4</version>
+    </dependency>
+
+    <!-- mybatis & spring -->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-spring</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+
+    <!-- DRUID -->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>1.0.31</version>
+    </dependency>
+
+    <!-- mysql -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>6.0.6</version>
+    </dependency>
+
+
+    <!-- mail -->
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.7</version>
+    </dependency>
+
+    <!-- http client -->
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.3</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.33</version>
+    </dependency>
+
+    <!-- xml、java互轉 -->
+    <dependency>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+      <version>1.4.10</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.5</version>
+    </dependency>
+
+    <!-- LOGBACK -->
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.25</version>
+    </dependency>
+
+    <!-- JUNIT4 -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <!--<version>2.0.2-beta</version>-->
+      <version>1.10.19</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.mybatis.generator</groupId>
+                <artifactId>mybatis-generator-maven-plugin</artifactId>
+                <version>1.3.5</version>
+                <configuration>
+                    <!--<configurationFile>${runtime.env}/generatorConfig.xml</configurationFile>-->
+                    <verbose>true</verbose>
+                    <overwrite>true</overwrite>
+                </configuration>
+            </plugin>
+
+
+            <!-- jetty:run -->
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.6.v20170531</version>
+                <configuration>
+                    <scanIntervalSeconds>0</scanIntervalSeconds>
+                    <httpConnector>
+                        <port>6666</port>
+                        <idleTimeout>60000</idleTimeout>
+                    </httpConnector>
+                    <webAppConfig>
+                        <contextPath>/</contextPath>
+                    </webAppConfig>
+                    <stopKey/>
+                    <stopPort/>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

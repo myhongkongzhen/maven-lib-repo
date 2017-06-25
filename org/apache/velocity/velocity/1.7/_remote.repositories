@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:09:52 CST 2017
+velocity-1.7.jar>central=
+velocity-1.7.pom>central=
+velocity-1.7.jar>alimaven=
+velocity-1.7.jar>oss-nexus=
+velocity-1.7.pom>alimaven=
+velocity-1.7.pom>oss-nexus=

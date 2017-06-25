@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:11:39 CST 2017
+maven-filtering-1.1.jar>alimaven=
+maven-filtering-1.1.pom>alimaven=
+maven-filtering-1.1.jar>oss-nexus=
+maven-filtering-1.1.pom>oss-nexus=

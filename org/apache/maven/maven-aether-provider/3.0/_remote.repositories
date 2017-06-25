@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Jun 25 17:09:52 CST 2017
+maven-aether-provider-3.0.jar>central=
+maven-aether-provider-3.0.jar>oss-nexus=
+maven-aether-provider-3.0.jar>alimaven=
+maven-aether-provider-3.0.pom>central=
+maven-aether-provider-3.0.pom>oss-nexus=
+maven-aether-provider-3.0.pom>alimaven=
