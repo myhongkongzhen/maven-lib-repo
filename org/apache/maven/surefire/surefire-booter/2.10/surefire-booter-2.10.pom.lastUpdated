@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Jun 27 07:56:38 CST 2017
+http\://uk.maven.org/maven2/.lastUpdated=1498521398787
+default-http\://localhost\:8888/nexus/content/groups/public/.lastUpdated=1498521396903
+http\://localhost\:8888/nexus/content/groups/public/.error=Could not transfer artifact org.apache.maven.surefire\:surefire-booter\:pom\:2.10 from/to central (http\://localhost\:8888/nexus/content/groups/public/)\: Connection to http\://localhost\:8888 refused

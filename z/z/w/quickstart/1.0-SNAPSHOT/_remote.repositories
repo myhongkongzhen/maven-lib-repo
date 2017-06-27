@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Jun 27 07:50:20 CST 2017
+quickstart-1.0-SNAPSHOT.jar>=
+quickstart-1.0-SNAPSHOT-bin.tar.gz>=
+quickstart-1.0-SNAPSHOT.pom>=
