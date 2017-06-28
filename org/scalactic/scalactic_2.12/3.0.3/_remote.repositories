@@ -1,4 +1,6 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jun 28 23:04:52 CST 2017
+#Wed Jun 28 23:12:08 CST 2017
+scalactic_2.12-3.0.3.jar>central=
+scalactic_2.12-3.0.3.pom>central=
 scalactic_2.12-3.0.3.jar>alimaven=
 scalactic_2.12-3.0.3.pom>alimaven=

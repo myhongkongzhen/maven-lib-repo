@@ -1,6 +1,7 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Sun Jun 25 23:20:10 CST 2017
+#Wed Jun 28 23:12:51 CST 2017
 maven-artifact-manager-2.0.8.pom>oss-nexus=
-maven-artifact-manager-2.0.8.jar>alimaven=
+maven-artifact-manager-2.0.8.jar>central=
 maven-artifact-manager-2.0.8.pom>central=
+maven-artifact-manager-2.0.8.jar>alimaven=
 maven-artifact-manager-2.0.8.pom>alimaven=

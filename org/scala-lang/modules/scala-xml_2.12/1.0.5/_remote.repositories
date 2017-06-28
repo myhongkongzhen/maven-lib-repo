@@ -1,4 +1,6 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jun 28 23:05:29 CST 2017
+#Wed Jun 28 23:12:08 CST 2017
 scala-xml_2.12-1.0.5.jar>alimaven=
+scala-xml_2.12-1.0.5.jar>central=
 scala-xml_2.12-1.0.5.pom>alimaven=
+scala-xml_2.12-1.0.5.pom>central=
