@@ -1,5 +1,7 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Sun Jun 25 17:15:17 CST 2017
+#Thu Jun 29 07:30:47 CST 2017
 slf4j-api-1.5.6.pom>oss-nexus=
+slf4j-api-1.5.6.jar>central=
 slf4j-api-1.5.6.jar>alimaven=
 slf4j-api-1.5.6.pom>alimaven=
+slf4j-api-1.5.6.pom>central=

@@ -1,4 +1,6 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Tue Jun 27 08:15:18 CST 2017
+#Thu Jun 29 07:17:54 CST 2017
 http\://maven.aliyun.com/nexus/content/repositories/central/.error=
-http\://maven.aliyun.com/nexus/content/repositories/central/.lastUpdated=1498522518279
+https\://repo.maven.apache.org/maven2/.lastUpdated=1498691874955
+http\://maven.aliyun.com/nexus/content/repositories/central/.lastUpdated=1498691515408
+https\://repo.maven.apache.org/maven2/.error=

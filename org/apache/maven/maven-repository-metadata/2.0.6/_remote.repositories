@@ -1,7 +1,8 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Sun Jun 25 17:11:39 CST 2017
+#Thu Jun 29 07:22:14 CST 2017
 maven-repository-metadata-2.0.6.pom>central=
 maven-repository-metadata-2.0.6.pom>oss-nexus=
 maven-repository-metadata-2.0.6.jar>alimaven=
 maven-repository-metadata-2.0.6.pom>alimaven=
+maven-repository-metadata-2.0.6.jar>central=
 maven-repository-metadata-2.0.6.jar>oss-nexus=
